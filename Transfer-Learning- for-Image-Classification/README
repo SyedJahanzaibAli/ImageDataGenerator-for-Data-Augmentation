@@ -1,0 +1,52 @@
+# Transfer Learning for COVID-19 Detection
+
+This repository explores transfer learning techniques using VGG16 and Inception models for COVID-19 detection from chest X-ray images.
+
+## Introduction
+
+The rapid and accurate detection of COVID-19 is critical in combating the ongoing pandemic. This project utilizes transfer learning, a powerful method in machine learning, to leverage pre-trained models for detecting COVID-19 cases from chest X-ray images. We compare the performance of two popular models: VGG16 and Inception.
+
+## Models and Results
+
+### VGG16 Model
+
+- **Training Results**:
+  - Loss: 1.0743
+  - Accuracy: 44.22%
+
+- **Validation Results**:
+  - Loss: 1.0948
+  - Accuracy: 39.39%
+
+### Inception Model
+
+- **Training Results**:
+  - Loss: 0.2057
+  - Accuracy: 92.43%
+
+- **Validation Results**:
+  - Loss: 0.1058
+  - Accuracy: 93.94%
+
+## Methodology
+
+Both models were fine-tuned using a dataset consisting of chest X-ray images of COVID-19 positive cases and other respiratory conditions. The training and validation metrics demonstrate the effectiveness of transfer learning in this domain.
+
+## Requirements
+
+To run the code in this repository, ensure you have the following dependencies installed:
+
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- etc. (list any additional libraries)
+
+## Usage
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/SyedJahanzaibAli/Transfer_Learning_for_Covid19_detection.git
+   cd Transfer_Learning_for_Covid19_detection
